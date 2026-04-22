@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="Baju.css">
+        <!-- Bootstrap css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs.font-awesome/6.4.0/css/all.min.css"/>
+        <!-- AOS css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <!-- Parallax -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/parallax-js/dist/parallax.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-background">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">Avril</a>
+            <button class="navbar-toggler tgl" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon tgl-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#product">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimoni</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                    <!-- Search -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <!-- User -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21a8 8 0 0 0-16 0"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </a>
+                    </li>
+                    <!-- CART -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="9" cy="21" r="1"></circle>
+                                <circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="parallax-hero" id="home">
+        <div class="container">
+            <h1 class="display-3 fw-bold text-center">Selamat Datang di Dreamlayers</h1>
+            <p>Roti Premium dengan Rasa yang Memanjakan Lidah</p>
+            <a href="#product" class="btn-white">Lihat Produk</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container-fluid my-4">
+            <div class="row g-3 mb-3">
+                <!-- Row untuk 3 kotak besar -->
+            <div class="col-12 col-md-12 col-lg-6 x">
+                <div class="gallery-card about-img-large img1">
+                    <div class="overlay">
+                        <h3>Discover Your Style</h3>
+                        <p>The latest elegant and trendy fashion collection for every moment.</p>
+                        <a class="btn-read" href="#">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="gallery-card about-img-large2 img2"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="gallery-card about-img-large2 img3"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="gallery-card about-img-small img4"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="gallery-card about-img-small img5"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="gallery-card about-img-small img6"></div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="gallery-card about-img-small img7"></div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product">
+        <div class="container-fluid py-5 my-5">
+            <h2 class="product-title">Product</h2>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card-product">
+                        <div class="card-title-product">
+                            Shirt
+                        </div>
+                        <div class="product-card-contents">
+                            <img src="img/Gambar 8.png" alt="">
+                            <div class="card-text">
+                                <h5 class="card-text fw-bold">Blue shirt</h5>
+                                <p>Rp 50.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card-product">
+                        <div class="card-title-product">
+                            Shirt
+                        </div>
+                        <div class="product-card-contents">
+                            <img src="img/Gambar 9.png" alt="">
+                            <div class="card-text">
+                                <h5 class="card-text fw-bold">Blue shirt</h5>
+                                <p>Rp 50.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card-product">
+                        <div class="card-title-product">
+                            Shirt
+                        </div>
+                        <div class="product-card-contents">
+                            <img src="img/Gambar 10.png" alt="">
+                            <div class="card-text">
+                                <h5 class="card-text fw-bold">Blue shirt</h5>
+                                <p>Rp 50.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card-product">
+                        <div class="card-title-product">
+                            Shirt
+                        </div>
+                        <div class="product-card-contents">
+                            <img src="img/Gambar 11.png" alt="">
+                            <div class="card-text">
+                                <h5 class="card-text fw-bold">Blue shirt</h5>
+                                <p>Rp 50.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimoni" class="py-5">
+        <div class="container-fluid">
+            <h2 class="text-center fw-bold mb-5" style="color: #FA5C5C; font-size: 2.5rem;">Testimoni</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card testimoni-card h-100 border-0">
+                        <div class="card-body text-center p-4">
+                            <img src="img/Gambar 12.png" alt="" class="rounded-circle mb-3 gallery-img" width="300" height="300">
+                            <p class="mb-2 fs-5">⭐⭐⭐⭐⭐</p>
+                            <p class="text-muted py-3">overall celananya bagus dan enak dipakai</p>
+                            <p class="fw-bold mb-0">Fian</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card testimoni-card h-100 border-0">
+                        <div class="card-body text-center p-4">
+                            <img src="img/Gambar 13.png" alt="" class="rounded-circle mb-3 gallery-img" width="300" height="300">
+                            <p class="mb-2 fs-5">⭐⭐⭐⭐⭐</p>
+                            <p class="text-muted py-3">overall celananya bagus dan enak dipakai</p>
+                            <p class="fw-bold mb-0">Fian</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card testimoni-card h-100 border-0">
+                        <div class="card-body text-center p-4">
+                            <img src="img/Gambar 14.jpg" alt="" class="rounded-circle mb-3 gallery-img" width="300" height="300">
+                            <p class="mb-2 fs-5">⭐⭐⭐⭐⭐</p>
+                            <p class="text-muted py-3">overall celananya bagus dan enak dipakai</p>
+                            <p class="fw-bold mb-0">Fian</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faq -->
+     <section id="faq" class="faq" style="padding: 80px; background:#ffffff;">
+        <h2 class="faq-title text-center mb-5">FAQ</h2>
+        <div class="accordion" id="faqAccordion">
+            <!-- item 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed acr" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                        Bagaimana cara memesan produk di toko ini?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="faqAccordion">
+                    <div class="accordion-body">
+                        Silahkan pilih produk yang diinginkan, lalu klik tombol pesan via WhatsApp atau hubungi nomor WhatsApp kami.Kirimkan format berikut nama produk, ukuran, jumlah, nama lengkap, alamat lengkap. Admin akan membantu proses pemesanan anda.
+                    </div>
+                </div>
+            </div>
+            <!-- item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed acr" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                        Bagaimana cara memesan produk di toko ini?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="faqAccordion">
+                    <div class="accordion-body">
+                        Silahkan pilih produk yang diinginkan, lalu klik tombol pesan via WhatsApp atau hubungi nomor WhatsApp kami.Kirimkan format berikut nama produk, ukuran, jumlah, nama lengkap, alamat lengkap. Admin akan membantu proses pemesanan anda.
+                    </div>
+                </div>
+            </div>
+            <!-- item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed acr" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                        Bagaimana cara memesan produk di toko ini?
+                    </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="faqAccordion">
+                    <div class="accordion-body">
+                        Silahkan pilih produk yang diinginkan, lalu klik tombol pesan via WhatsApp atau hubungi nomor WhatsApp kami.Kirimkan format berikut nama produk, ukuran, jumlah, nama lengkap, alamat lengkap. Admin akan membantu proses pemesanan anda.
+                    </div>
+                </div>
+            </div>
+            <!-- item 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed acr" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                        Bagaimana cara memesan produk di toko ini?
+                    </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="faqAccordion">
+                    <div class="accordion-body">
+                        Silahkan pilih produk yang diinginkan, lalu klik tombol pesan via WhatsApp atau hubungi nomor WhatsApp kami.Kirimkan format berikut nama produk, ukuran, jumlah, nama lengkap, alamat lengkap. Admin akan membantu proses pemesanan anda.
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="container reveal">
+            <h2 class="gallery-title">Gallery Us</h2>
+            <div class="row g-3">
+                <div class="col-12 col-md-4">
+                    <div class="card gallery-card">
+                        <img src="img/Gambar 15.jpg" alt="" class="gallery-img">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card gallery-card">
+                        <img src="img/Gambar 15.jpg" alt="" class="gallery-img">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card gallery-card">
+                        <img src="img/Gambar 15.jpg" alt="" class="gallery-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="pt-5">
+        <div class="container">
+            <h2 style="color:#A20100; font-weight:bold; font-size:2.5rem; margin-bottom:3rem; text-align:center;">Hubungi Kami</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="contact-info h-100">
+                        <h3 style="color:#A20100; font-weight:bold; font-size:1.8rem; margin-bottom:3rem; text-align:center;">Informasi Kontak</h3>
+                        <div class="mb-3">
+                            <strong>📍 Alamat:</strong><br>
+                            Jl. Raya Singosari No. 123<br>
+                            Singosari, Malang, Jawa Timur
+                        </div>
+                        <div class="mb-3">
+                            <strong>📞 Telepon:</strong><br>
+                            +62 812-3456-7890
+                        </div>
+                        <div class="mb-3">
+                            <strong>✉️ Email:</strong><br>
+                            info@dreamlayers.com
+                        </div>
+                        <div>
+                            <strong>⏰ Jam Buka:</strong><br>
+                            Senin - Sabtu: 08.00 - 20.00<br>
+                            Minggu: 09.00 - 18.00
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 style="color:#A20100; font-weight:bold; font-size:1.8rem; margin-bottom:3rem; text-align:center;">Form Pemesanan</h3>
+                    <form onsubmit="event.preventDefault(); alert('Terima kasih! Pesan Anda telah terkirim.');">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email Anda" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Nomor Telepon" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-contact w-100" style="color: white; background: #A20100;padding: 10px 30px; border-radius: 5px; border: none; font-weight: bold;">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">SHOP</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Sale</a></li>
+                        <li><a href="#">All Products</a></li>
+                    </ul>
+                </div>
+                <!-- 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">HELP</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">ABOUT</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Company Profile</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Follow Us</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Tiktok</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
+    <!-- Navbar -->
+    <script>
+       const hamburger = document.querySelector('.hamburger');
+       const mobileMenu = document.querySelector('.mobile-menu');
+
+       hamburger.addEventListener('click',()=>{
+           hamburger.classList.toggle('active');
+           mobileMenu.classList.toggle('active');
+       });
+       // close mobile menu ketika klik link
+       document.querySelectorAll('.mobile-menu a'). forEach(link =>{
+           link.addEventListener('click', ()=>{
+               hamburger.classList.remove('active');
+               mobileMenu.classList.remove('active');
+           });  
+       });
+    </script>
+    <!-- Bootstrap JS Faq -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <Script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></Script>
+    <!-- Init AOS -->
+    <script>
+       AOS.ini();
+    </script>
+    <!-- Paralax -->
+    <script src="https://cdn.jsdelivr.net/npm/paralaxx-js/dist/paralax.js"></script>
+</body>
+</html>
